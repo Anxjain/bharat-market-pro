@@ -1,0 +1,1948 @@
+{
+  "month": "2026-05",
+  "funds": [
+    {
+      "sfin": "ULIF01816/08/16IMCAPEQFND136",
+      "name": "India Multi-cap Equity Fund",
+      "class": "Individual",
+      "category": null,
+      "nav": 28.8675,
+      "inception": null,
+      "benchmark": "Nifty 100",
+      "manager": null,
+      "aum": {
+        "equity": null,
+        "debt": null,
+        "mmi": null,
+        "total": 4874.0
+      },
+      "returns": [],
+      "allocations": [
+        {
+          "kind": "asset",
+          "label": "Equity",
+          "weight": 98.7
+        },
+        {
+          "kind": "asset",
+          "label": "Money Market",
+          "weight": 1.3
+        }
+      ],
+      "holdings": [
+        {
+          "security": "HDFC Bank Limited",
+          "weightPct": 6.4
+        },
+        {
+          "security": "Reliance Industries Limited",
+          "weightPct": 5.7
+        },
+        {
+          "security": "ICICI Bank Limited",
+          "weightPct": 5.5
+        },
+        {
+          "security": "Bharti Airtel Limited",
+          "weightPct": 4.2
+        },
+        {
+          "security": "Larsen & Toubro Limited",
+          "weightPct": 3.1
+        },
+        {
+          "security": "Infosys Limited",
+          "weightPct": 2.9
+        },
+        {
+          "security": "State Bank of India Limited",
+          "weightPct": 2.6
+        },
+        {
+          "security": "Mahindra & Mahindra Limited",
+          "weightPct": 2.4
+        },
+        {
+          "security": "Axis Bank Limited",
+          "weightPct": 2.4
+        },
+        {
+          "security": "Bajaj Finance Limited",
+          "weightPct": 2.2
+        }
+      ]
+    },
+    {
+      "sfin": "ULIF00607/01/10EQUTYIIFND136",
+      "name": "Equity II Fund",
+      "class": "Individual",
+      "category": null,
+      "nav": 39.5633,
+      "inception": null,
+      "benchmark": "Nifty 50",
+      "manager": null,
+      "aum": {
+        "equity": null,
+        "debt": null,
+        "mmi": null,
+        "total": 3078.0
+      },
+      "returns": [],
+      "allocations": [
+        {
+          "kind": "asset",
+          "label": "Equity",
+          "weight": 98.8
+        },
+        {
+          "kind": "asset",
+          "label": "Money Market",
+          "weight": 1.2
+        }
+      ],
+      "holdings": [
+        {
+          "security": "HDFC Bank Limited",
+          "weightPct": 7.4
+        },
+        {
+          "security": "Reliance Industries Limited",
+          "weightPct": 7.3
+        },
+        {
+          "security": "ICICI Bank Limited",
+          "weightPct": 6.0
+        },
+        {
+          "security": "Bharti Airtel Limited",
+          "weightPct": 5.2
+        },
+        {
+          "security": "Larsen & Toubro Limited",
+          "weightPct": 3.9
+        },
+        {
+          "security": "Infosys Limited",
+          "weightPct": 3.7
+        },
+        {
+          "security": "State Bank of India Limited",
+          "weightPct": 2.9
+        },
+        {
+          "security": "Mahindra & Mahindra Limited",
+          "weightPct": 2.8
+        },
+        {
+          "security": "Tata Consultancy Services Limited",
+          "weightPct": 2.6
+        },
+        {
+          "security": "Axis Bank Limited",
+          "weightPct": 2.4
+        }
+      ]
+    },
+    {
+      "sfin": "ULIF02020/12/17EMLEDEQFND136",
+      "name": "Emerging Leaders Equity Fund",
+      "class": "Individual",
+      "category": null,
+      "nav": 33.8633,
+      "inception": null,
+      "benchmark": "Nifty Midcap 100",
+      "manager": null,
+      "aum": {
+        "equity": null,
+        "debt": null,
+        "mmi": null,
+        "total": 2366.2
+      },
+      "returns": [],
+      "allocations": [
+        {
+          "kind": "asset",
+          "label": "Equity",
+          "weight": 96.5
+        },
+        {
+          "kind": "asset",
+          "label": "Money Market",
+          "weight": 3.5
+        }
+      ],
+      "holdings": [
+        {
+          "security": "BSE Limited",
+          "weightPct": 3.8
+        },
+        {
+          "security": "Coforge Limited",
+          "weightPct": 2.3
+        },
+        {
+          "security": "Hero Motocorp Limited",
+          "weightPct": 2.2
+        },
+        {
+          "security": "Multi Commodity Exchange of India Limited",
+          "weightPct": 2.2
+        },
+        {
+          "security": "IDFC First Bank Limited",
+          "weightPct": 2.0
+        },
+        {
+          "security": "Max Financial Services Limited",
+          "weightPct": 2.0
+        },
+        {
+          "security": "Hitachi Energy India Limited",
+          "weightPct": 1.9
+        },
+        {
+          "security": "GE Vernova T&D India Limited",
+          "weightPct": 1.9
+        },
+        {
+          "security": "IndusInd Bank Limited",
+          "weightPct": 1.8
+        },
+        {
+          "security": "Suzlon Energy Limited",
+          "weightPct": 1.8
+        }
+      ]
+    },
+    {
+      "sfin": "ULIF01013/09/10BLNCDPLFND136",
+      "name": "Balanced Plus Fund",
+      "class": "Individual",
+      "category": null,
+      "nav": 31.8479,
+      "inception": null,
+      "benchmark": "Nifty 50 and Customized UL",
+      "manager": null,
+      "aum": {
+        "equity": null,
+        "debt": null,
+        "mmi": null,
+        "total": 1527.1
+      },
+      "returns": [],
+      "allocations": [],
+      "holdings": [
+        {
+          "security": "HDFC Bank Limited",
+          "weightPct": 4.8
+        },
+        {
+          "security": "ICICI Bank Limited",
+          "weightPct": 4.5
+        },
+        {
+          "security": "Reliance Industries Limited",
+          "weightPct": 4.0
+        },
+        {
+          "security": "Bharti Airtel Limited",
+          "weightPct": 2.8
+        },
+        {
+          "security": "Larsen & Toubro Limited",
+          "weightPct": 2.3
+        },
+        {
+          "security": "Infosys Limited",
+          "weightPct": 1.9
+        },
+        {
+          "security": "State Bank of India Limited",
+          "weightPct": 1.9
+        },
+        {
+          "security": "Axis Bank Limited",
+          "weightPct": 1.7
+        },
+        {
+          "security": "Kotak Mahindra Bank Limited",
+          "weightPct": 1.6
+        },
+        {
+          "security": "Mahindra & Mahindra Limited",
+          "weightPct": 1.5
+        },
+        {
+          "security": "GOVERNMENT SECURITIES",
+          "weightPct": 14.6
+        },
+        {
+          "security": "6.90% Govt. of India (MD 15/04/2065)",
+          "weightPct": 3.5
+        },
+        {
+          "security": "7.24% Govt. of India (MD 18/08/2055)",
+          "weightPct": 3.5
+        },
+        {
+          "security": "7.19% Govt. of India (MD 15/09/2060)",
+          "weightPct": 1.5
+        },
+        {
+          "security": "7.43% Maharashtra State Dev. Loan (MD 03/12/2040)",
+          "weightPct": 1.0
+        },
+        {
+          "security": "7.57% Maharashtra State Dev. Loan (MD 25/03/2036)",
+          "weightPct": 0.7
+        },
+        {
+          "security": "6.68% Govt. of India (MD 07/07/2040)",
+          "weightPct": 0.7
+        },
+        {
+          "security": "7.63% Madhya Pradesh State Dev. Loan (MD 04/03/2041)",
+          "weightPct": 0.7
+        },
+        {
+          "security": "7.76% Maharashtra State Dev. Loan (MD 04/10/2030)",
+          "weightPct": 0.7
+        },
+        {
+          "security": "6.94% Govt. of India (MD 11/05/2036)",
+          "weightPct": 0.7
+        },
+        {
+          "security": "0.00% Govt. Of India (MD 02/01/2031)",
+          "weightPct": 0.4
+        },
+        {
+          "security": "CORPORATE DEBT",
+          "weightPct": 28.3
+        },
+        {
+          "security": "7.92% Rural Electrification Corp. Limited (MD 30/03/2030)",
+          "weightPct": 2.3
+        },
+        {
+          "security": "7.70% India Grid Trust (MD 06/05/2028)",
+          "weightPct": 2.3
+        },
+        {
+          "security": "8.70% LIC Housing Finance Limited (MD 23/03/2029)",
+          "weightPct": 1.7
+        },
+        {
+          "security": "7.90% Bajaj Housing Finance Limited (MD 12/05/2031)",
+          "weightPct": 1.6
+        },
+        {
+          "security": "7.85% TATA Capital Housing Finance Limited (MD",
+          "weightPct": 1.6
+        },
+        {
+          "security": "7.85% Bajaj Housing Finance Limited (MD 01/09/2028)",
+          "weightPct": 1.6
+        },
+        {
+          "security": "7.05% LIC Housing Finance Limited (MD 21/12/2030)",
+          "weightPct": 1.6
+        },
+        {
+          "security": "6.70% Rural Electrification Corp. Limited (MD 31/12/2029)",
+          "weightPct": 1.6
+        },
+        {
+          "security": "8.37% Rural Electrification Corp. Limited (MD 07/12/2028)",
+          "weightPct": 1.3
+        },
+        {
+          "security": "7.98% Bajaj Finance Limited (MD 31/07/2029)",
+          "weightPct": 1.3
+        }
+      ]
+    },
+    {
+      "sfin": "ULIF02109/06/20LARCPADFND136",
+      "name": "Large Cap Advantage Fund",
+      "class": "Individual",
+      "category": null,
+      "nav": 19.5356,
+      "inception": null,
+      "benchmark": "Nifty 50 and Customized",
+      "manager": null,
+      "aum": {
+        "equity": null,
+        "debt": null,
+        "mmi": null,
+        "total": 1162.1
+      },
+      "returns": [],
+      "allocations": [
+        {
+          "kind": "asset",
+          "label": "Equity",
+          "weight": 94.9
+        },
+        {
+          "kind": "asset",
+          "label": "Money Market",
+          "weight": 5.1
+        }
+      ],
+      "holdings": [
+        {
+          "security": "HDFC Bank Limited",
+          "weightPct": 8.7
+        },
+        {
+          "security": "Reliance Industries Limited",
+          "weightPct": 7.8
+        },
+        {
+          "security": "ICICI Bank Limited",
+          "weightPct": 7.1
+        },
+        {
+          "security": "Bharti Airtel Limited",
+          "weightPct": 4.9
+        },
+        {
+          "security": "Larsen & Toubro Limited",
+          "weightPct": 4.2
+        },
+        {
+          "security": "Infosys Limited",
+          "weightPct": 3.6
+        },
+        {
+          "security": "State Bank of India Limited",
+          "weightPct": 2.9
+        },
+        {
+          "security": "Axis Bank Limited",
+          "weightPct": 2.7
+        },
+        {
+          "security": "ITC Limited",
+          "weightPct": 2.4
+        },
+        {
+          "security": "Mahindra & Mahindra Limited",
+          "weightPct": 2.4
+        }
+      ]
+    },
+    {
+      "sfin": "ULIF02305/11/24INMFGEQFND136",
+      "name": "India Manufacturing Fund",
+      "class": "Individual",
+      "category": null,
+      "nav": 10.9736,
+      "inception": null,
+      "benchmark": "Nifty India Manufacturing",
+      "manager": null,
+      "aum": {
+        "equity": null,
+        "debt": null,
+        "mmi": null,
+        "total": 990.6
+      },
+      "returns": [],
+      "allocations": [
+        {
+          "kind": "asset",
+          "label": "Equity",
+          "weight": 95.9
+        },
+        {
+          "kind": "asset",
+          "label": "Money Market",
+          "weight": 4.1
+        }
+      ],
+      "holdings": [
+        {
+          "security": "Reliance Industries Limited",
+          "weightPct": 4.6
+        },
+        {
+          "security": "Mahindra & Mahindra Limited",
+          "weightPct": 4.5
+        },
+        {
+          "security": "Bharat Electronics Limited",
+          "weightPct": 3.9
+        },
+        {
+          "security": "Sun Pharmaceutical Industries Limited",
+          "weightPct": 3.9
+        },
+        {
+          "security": "Tata Steel Limited",
+          "weightPct": 3.7
+        },
+        {
+          "security": "Hindalco Industries Limited",
+          "weightPct": 3.5
+        },
+        {
+          "security": "JSW Steel Limited",
+          "weightPct": 3.3
+        },
+        {
+          "security": "Maruti Suzuki India Limited",
+          "weightPct": 3.3
+        },
+        {
+          "security": "Eicher Motors Limited",
+          "weightPct": 3.1
+        },
+        {
+          "security": "Dr. Reddys Laboratories Limited",
+          "weightPct": 2.7
+        }
+      ]
+    },
+    {
+      "sfin": "ULIF00514/07/08LIQUIDFUND136",
+      "name": "Liquid Fund",
+      "class": "Individual",
+      "category": null,
+      "nav": 28.8727,
+      "inception": null,
+      "benchmark": "Customized UL Liquid Index",
+      "manager": null,
+      "aum": {
+        "equity": null,
+        "debt": null,
+        "mmi": null,
+        "total": 634.0
+      },
+      "returns": [],
+      "allocations": [],
+      "holdings": []
+    },
+    {
+      "sfin": "ULIF00116/06/08EQUITYFUND136",
+      "name": "Equity Fund",
+      "class": "Individual",
+      "category": null,
+      "nav": 50.9829,
+      "inception": null,
+      "benchmark": "Nifty 50",
+      "manager": null,
+      "aum": {
+        "equity": null,
+        "debt": null,
+        "mmi": null,
+        "total": 608.6
+      },
+      "returns": [],
+      "allocations": [
+        {
+          "kind": "asset",
+          "label": "Equity",
+          "weight": 98.8
+        },
+        {
+          "kind": "asset",
+          "label": "Money Market",
+          "weight": 1.2
+        }
+      ],
+      "holdings": [
+        {
+          "security": "HDFC Bank Limited",
+          "weightPct": 7.3
+        },
+        {
+          "security": "Reliance Industries Limited",
+          "weightPct": 7.2
+        },
+        {
+          "security": "ICICI Bank Limited",
+          "weightPct": 6.8
+        },
+        {
+          "security": "Bharti Airtel Limited",
+          "weightPct": 5.3
+        },
+        {
+          "security": "Larsen & Toubro Limited",
+          "weightPct": 4.2
+        },
+        {
+          "security": "Infosys Limited",
+          "weightPct": 4.0
+        },
+        {
+          "security": "State Bank of India Limited",
+          "weightPct": 3.1
+        },
+        {
+          "security": "Mahindra & Mahindra Limited",
+          "weightPct": 2.8
+        },
+        {
+          "security": "Axis Bank Limited",
+          "weightPct": 2.7
+        },
+        {
+          "security": "Kotak Mahindra Bank Limited",
+          "weightPct": 2.7
+        }
+      ]
+    },
+    {
+      "sfin": "ULIF00409/07/08INDEBTFUND136",
+      "name": "Debt Fund",
+      "class": "Individual",
+      "category": null,
+      "nav": 38.6915,
+      "inception": null,
+      "benchmark": "Customized UL Debt Composite Bond Index",
+      "manager": null,
+      "aum": {
+        "equity": null,
+        "debt": null,
+        "mmi": null,
+        "total": 528.2
+      },
+      "returns": [],
+      "allocations": [],
+      "holdings": []
+    },
+    {
+      "sfin": "ULIF02910/11/25NGCONEQFND136",
+      "name": "NextGen Consumption Fund",
+      "class": "Individual",
+      "category": null,
+      "nav": 8.9829,
+      "inception": null,
+      "benchmark": "Nifty India New Age Consumption",
+      "manager": null,
+      "aum": {
+        "equity": null,
+        "debt": null,
+        "mmi": null,
+        "total": 476.3
+      },
+      "returns": [],
+      "allocations": [
+        {
+          "kind": "asset",
+          "label": "Equity",
+          "weight": 97.2
+        },
+        {
+          "kind": "asset",
+          "label": "Money Market",
+          "weight": 2.8
+        }
+      ],
+      "holdings": [
+        {
+          "security": "Bharti Airtel Limited",
+          "weightPct": 5.4
+        },
+        {
+          "security": "Eternal Limited",
+          "weightPct": 5.4
+        },
+        {
+          "security": "Mahindra & Mahindra Limited",
+          "weightPct": 5.0
+        },
+        {
+          "security": "Trent Limited",
+          "weightPct": 4.6
+        },
+        {
+          "security": "Titan Company Limited",
+          "weightPct": 4.4
+        },
+        {
+          "security": "Interglobe Aviation Limited",
+          "weightPct": 4.4
+        },
+        {
+          "security": "Maruti Suzuki India Limited",
+          "weightPct": 4.1
+        },
+        {
+          "security": "Eicher Motors Limited",
+          "weightPct": 3.7
+        },
+        {
+          "security": "HDFC Asset Management Company Limited",
+          "weightPct": 3.4
+        },
+        {
+          "security": "TVS Motor Company Limited",
+          "weightPct": 2.9
+        }
+      ]
+    },
+    {
+      "sfin": "ULIF00913/09/10GROWTPLFND136",
+      "name": "Growth Plus Fund",
+      "class": "Individual",
+      "category": null,
+      "nav": 35.7944,
+      "inception": null,
+      "benchmark": "Nifty 50 and Customized UL",
+      "manager": null,
+      "aum": {
+        "equity": null,
+        "debt": null,
+        "mmi": null,
+        "total": 429.9
+      },
+      "returns": [],
+      "allocations": [],
+      "holdings": [
+        {
+          "security": "Reliance Industries Limited",
+          "weightPct": 6.7
+        },
+        {
+          "security": "HDFC Bank Limited",
+          "weightPct": 6.3
+        },
+        {
+          "security": "ICICI Bank Limited",
+          "weightPct": 5.2
+        },
+        {
+          "security": "Bharti Airtel Limited",
+          "weightPct": 4.5
+        },
+        {
+          "security": "Larsen & Toubro Limited",
+          "weightPct": 4.3
+        },
+        {
+          "security": "State Bank of India Limited",
+          "weightPct": 3.5
+        },
+        {
+          "security": "Axis Bank Limited",
+          "weightPct": 3.4
+        },
+        {
+          "security": "Infosys Limited",
+          "weightPct": 2.9
+        },
+        {
+          "security": "Mahindra & Mahindra Limited",
+          "weightPct": 2.3
+        },
+        {
+          "security": "Tata Consultancy Services Limited",
+          "weightPct": 2.2
+        },
+        {
+          "security": "GOVERNMENT SECURITIES",
+          "weightPct": 12.7
+        },
+        {
+          "security": "6.01% Govt. of India (MD 21/07/2030)",
+          "weightPct": 7.6
+        },
+        {
+          "security": "6.90% Govt. of India (MD 15/04/2065)",
+          "weightPct": 2.4
+        },
+        {
+          "security": "6.68% Govt. of India (MD 07/07/2040)",
+          "weightPct": 1.1
+        },
+        {
+          "security": "7.24% Govt. of India (MD 18/08/2055)",
+          "weightPct": 0.9
+        },
+        {
+          "security": "7.10% Govt. of India (MD 18/04/2029)",
+          "weightPct": 0.7
+        },
+        {
+          "security": "6.48% Govt. of India (MD 06/10/2035)",
+          "weightPct": 0.0
+        },
+        {
+          "security": "7.63% Madhya Pradesh State Dev. Loan (MD 04/03/2041)",
+          "weightPct": 0.0
+        },
+        {
+          "security": "CORPORATE DEBT",
+          "weightPct": 1.5
+        },
+        {
+          "security": "7.77% Bajaj Finance Limited (MD 17/04/2029)",
+          "weightPct": 0.8
+        },
+        {
+          "security": "8.25% Great Eastern Shipping Company Limited",
+          "weightPct": 0.4
+        },
+        {
+          "security": "9.00% Power Finance Corp. Limited (MD 11/03/2028)",
+          "weightPct": 0.1
+        },
+        {
+          "security": "8.57% India Infradebt Limited (MD 23/06/2026)",
+          "weightPct": 0.1
+        },
+        {
+          "security": "8.70% LIC Housing Finance Limited (MD 23/03/2029)",
+          "weightPct": 0.1
+        }
+      ]
+    },
+    {
+      "sfin": "ULIF01115/09/10DEBTPLFUND136",
+      "name": "Debt Plus Fund",
+      "class": "Individual",
+      "category": null,
+      "nav": 27.9325,
+      "inception": null,
+      "benchmark": "Customized UL Debt Plus Composite Bond Index",
+      "manager": null,
+      "aum": {
+        "equity": null,
+        "debt": null,
+        "mmi": null,
+        "total": 243.6
+      },
+      "returns": [],
+      "allocations": [],
+      "holdings": []
+    },
+    {
+      "sfin": "ULIF00316/06/08BLNCEDFUND136",
+      "name": "Balanced Fund",
+      "class": "Individual",
+      "category": null,
+      "nav": 44.6104,
+      "inception": null,
+      "benchmark": "Nifty 50 and Customized UL",
+      "manager": null,
+      "aum": {
+        "equity": null,
+        "debt": null,
+        "mmi": null,
+        "total": 160.1
+      },
+      "returns": [],
+      "allocations": [],
+      "holdings": [
+        {
+          "security": "HDFC Bank Limited",
+          "weightPct": 4.5
+        },
+        {
+          "security": "ICICI Bank Limited",
+          "weightPct": 4.5
+        },
+        {
+          "security": "Reliance Industries Limited",
+          "weightPct": 3.8
+        },
+        {
+          "security": "Bharti Airtel Limited",
+          "weightPct": 2.7
+        },
+        {
+          "security": "Larsen & Toubro Limited",
+          "weightPct": 2.2
+        },
+        {
+          "security": "State Bank of India Limited",
+          "weightPct": 1.9
+        },
+        {
+          "security": "Infosys Limited",
+          "weightPct": 1.9
+        },
+        {
+          "security": "Axis Bank Limited",
+          "weightPct": 1.8
+        },
+        {
+          "security": "Mahindra & Mahindra Limited",
+          "weightPct": 1.5
+        },
+        {
+          "security": "Kotak Mahindra Bank Limited",
+          "weightPct": 1.5
+        },
+        {
+          "security": "GOVERNMENT SECURITIES",
+          "weightPct": 21.7
+        },
+        {
+          "security": "6.01% Govt. of India (MD 21/07/2030)",
+          "weightPct": 10.6
+        },
+        {
+          "security": "7.57% Govt. of India (MD 17/06/2033)",
+          "weightPct": 3.2
+        },
+        {
+          "security": "8.83% Govt. of India (MD 12/12/2041)",
+          "weightPct": 2.8
+        },
+        {
+          "security": "7.24% Govt. of India (MD 18/08/2055)",
+          "weightPct": 2.3
+        },
+        {
+          "security": "6.90% Govt. of India (MD 15/04/2065)",
+          "weightPct": 1.4
+        },
+        {
+          "security": "6.68% Govt. of India (MD 07/07/2040)",
+          "weightPct": 1.2
+        },
+        {
+          "security": "6.36% Govt. of India (MD 16/02/2031)",
+          "weightPct": 0.3
+        },
+        {
+          "security": "CORPORATE DEBT",
+          "weightPct": 21.0
+        },
+        {
+          "security": "6.87% Rural Electrification Corp. Limited (MD 31/05/2030)",
+          "weightPct": 6.0
+        },
+        {
+          "security": "7.90% Bajaj Housing Finance Limited (MD 12/05/2031)",
+          "weightPct": 3.1
+        },
+        {
+          "security": "8.20% Muthoot Finance Limited (MD 30/04/2030)",
+          "weightPct": 3.1
+        },
+        {
+          "security": "7.71% LIC Housing Finance Limited (MD 09/05/2033)",
+          "weightPct": 2.5
+        },
+        {
+          "security": "9.00% Shriram Finance Company Limited (MD",
+          "weightPct": 2.2
+        },
+        {
+          "security": "7.85% TATA Capital Housing Finance Limited (MD",
+          "weightPct": 1.9
+        },
+        {
+          "security": "MD 23/09/2030)",
+          "weightPct": 0.9
+        },
+        {
+          "security": "8.70% LIC Housing Finance Limited (MD 23/03/2029)",
+          "weightPct": 0.6
+        },
+        {
+          "security": "8.57% India Infradebt Limited (MD 23/06/2026)",
+          "weightPct": 0.3
+        },
+        {
+          "security": "7.77% Bajaj Finance Limited (MD 17/04/2029)",
+          "weightPct": 0.2
+        }
+      ]
+    },
+    {
+      "sfin": "ULIF00807/01/10BLNCDIIFND136",
+      "name": "Balanced II Fund",
+      "class": "Individual",
+      "category": null,
+      "nav": 36.4123,
+      "inception": null,
+      "benchmark": "Nifty 50 and Customized UL",
+      "manager": null,
+      "aum": {
+        "equity": null,
+        "debt": null,
+        "mmi": null,
+        "total": 135.9
+      },
+      "returns": [],
+      "allocations": [],
+      "holdings": [
+        {
+          "security": "HDFC Bank Limited",
+          "weightPct": 4.9
+        },
+        {
+          "security": "ICICI Bank Limited",
+          "weightPct": 4.2
+        },
+        {
+          "security": "Reliance Industries Limited",
+          "weightPct": 4.1
+        },
+        {
+          "security": "Bharti Airtel Limited",
+          "weightPct": 2.7
+        },
+        {
+          "security": "Larsen & Toubro Limited",
+          "weightPct": 2.0
+        },
+        {
+          "security": "State Bank of India Limited",
+          "weightPct": 1.9
+        },
+        {
+          "security": "Infosys Limited",
+          "weightPct": 1.9
+        },
+        {
+          "security": "Axis Bank Limited",
+          "weightPct": 1.6
+        },
+        {
+          "security": "Mahindra & Mahindra Limited",
+          "weightPct": 1.5
+        },
+        {
+          "security": "Kotak Mahindra Bank Limited",
+          "weightPct": 1.5
+        },
+        {
+          "security": "GOVERNMENT SECURITIES",
+          "weightPct": 16.9
+        },
+        {
+          "security": "6.90% Govt. of India (MD 15/04/2065)",
+          "weightPct": 6.0
+        },
+        {
+          "security": "6.01% Govt. of India (MD 21/07/2030)",
+          "weightPct": 3.2
+        },
+        {
+          "security": "6.68% Govt. of India (MD 07/07/2040)",
+          "weightPct": 2.1
+        },
+        {
+          "security": "7.09% Govt. of India (MD 25/11/2074)",
+          "weightPct": 2.0
+        },
+        {
+          "security": "6.48% Govt. of India (MD 06/10/2035)",
+          "weightPct": 1.4
+        },
+        {
+          "security": "7.24% Govt. of India (MD 18/08/2055)",
+          "weightPct": 1.1
+        },
+        {
+          "security": "7.63% Madhya Pradesh State Dev. Loan (MD 04/03/2041)",
+          "weightPct": 0.7
+        },
+        {
+          "security": "6.75% Govt. of India (MD 23/12/2029)",
+          "weightPct": 0.4
+        },
+        {
+          "security": "CORPORATE DEBT",
+          "weightPct": 28.6
+        },
+        {
+          "security": "7.40% NABARD (MD 29/04/2030)",
+          "weightPct": 5.4
+        },
+        {
+          "security": "7.85% TATA Capital Housing Finance Limited (MD",
+          "weightPct": 5.2
+        },
+        {
+          "security": "9.00% Power Finance Corp. Limited (MD 11/03/2028)",
+          "weightPct": 5.1
+        },
+        {
+          "security": "7.90% Bajaj Housing Finance Limited (MD 12/05/2031)",
+          "weightPct": 3.7
+        },
+        {
+          "security": "8.20% Muthoot Finance Limited (MD 30/04/2030)",
+          "weightPct": 3.7
+        },
+        {
+          "security": "(State Govt Guaranteed)",
+          "weightPct": 2.9
+        },
+        {
+          "security": "9.00% Shriram Finance Company Limited (MD",
+          "weightPct": 1.4
+        },
+        {
+          "security": "8.70% LIC Housing Finance Limited (MD 23/03/2029)",
+          "weightPct": 0.8
+        },
+        {
+          "security": "8.57% India Infradebt Limited (MD 23/06/2026)",
+          "weightPct": 0.4
+        }
+      ]
+    },
+    {
+      "sfin": "ULIF02218/03/24MIDMIEQFND136",
+      "name": "Midcap Momentum Growth Index Fund",
+      "class": "Individual",
+      "category": null,
+      "nav": 10.6948,
+      "inception": null,
+      "benchmark": "Nifty Midcap 150 Momentum 50",
+      "manager": null,
+      "aum": {
+        "equity": null,
+        "debt": null,
+        "mmi": null,
+        "total": 132.7
+      },
+      "returns": [],
+      "allocations": [
+        {
+          "kind": "asset",
+          "label": "Equity",
+          "weight": 99.2
+        },
+        {
+          "kind": "asset",
+          "label": "Money Market",
+          "weight": 0.8
+        }
+      ],
+      "holdings": [
+        {
+          "security": "BSE Limited",
+          "weightPct": 5.7
+        },
+        {
+          "security": "Cummins India Limited",
+          "weightPct": 5.3
+        },
+        {
+          "security": "Hero Motocorp Limited",
+          "weightPct": 4.3
+        },
+        {
+          "security": "GE Vernova T&D India Limited",
+          "weightPct": 3.9
+        },
+        {
+          "security": "AU Small Finance Bank Limited",
+          "weightPct": 3.3
+        },
+        {
+          "security": "The Federal Bank Limited",
+          "weightPct": 3.3
+        },
+        {
+          "security": "Muthoot Finance Limited",
+          "weightPct": 3.1
+        },
+        {
+          "security": "Fortis Healthcare Limited",
+          "weightPct": 3.0
+        },
+        {
+          "security": "Max Financial Services Limited",
+          "weightPct": 3.0
+        },
+        {
+          "security": "Ashok Leyland Limited",
+          "weightPct": 2.9
+        }
+      ]
+    },
+    {
+      "sfin": "ULIF01405/11/15PENSGROFND136",
+      "name": "Pension Growth Fund",
+      "class": "Individual",
+      "category": null,
+      "nav": 18.3871,
+      "inception": null,
+      "benchmark": "Nifty 50 and Customized",
+      "manager": null,
+      "aum": {
+        "equity": null,
+        "debt": null,
+        "mmi": null,
+        "total": 116.6
+      },
+      "returns": [],
+      "allocations": [],
+      "holdings": [
+        {
+          "security": "HDFC Bank Limited",
+          "weightPct": 4.9
+        },
+        {
+          "security": "ICICI Bank Limited",
+          "weightPct": 4.4
+        },
+        {
+          "security": "Reliance Industries Limited",
+          "weightPct": 4.0
+        },
+        {
+          "security": "Bharti Airtel Limited",
+          "weightPct": 2.7
+        },
+        {
+          "security": "Larsen & Toubro Limited",
+          "weightPct": 2.2
+        },
+        {
+          "security": "Infosys Limited",
+          "weightPct": 2.0
+        },
+        {
+          "security": "State Bank of India Limited",
+          "weightPct": 1.8
+        },
+        {
+          "security": "Kotak Mahindra Bank Limited",
+          "weightPct": 1.7
+        },
+        {
+          "security": "Axis Bank Limited",
+          "weightPct": 1.6
+        },
+        {
+          "security": "Mahindra & Mahindra Limited",
+          "weightPct": 1.5
+        },
+        {
+          "security": "GOVERNMENT SECURITIES",
+          "weightPct": 25.8
+        },
+        {
+          "security": "6.90% Govt. of India (MD 15/04/2065)",
+          "weightPct": 7.7
+        },
+        {
+          "security": "6.75% Govt. of India (MD 23/12/2029)",
+          "weightPct": 5.7
+        },
+        {
+          "security": "6.01% Govt. of India (MD 21/07/2030)",
+          "weightPct": 4.4
+        },
+        {
+          "security": "7.49% Maharashtra State Dev. Loan (MD 12/04/2030)",
+          "weightPct": 2.2
+        },
+        {
+          "security": "7.63% Madhya Pradesh State Dev. Loan (MD",
+          "weightPct": 2.1
+        },
+        {
+          "security": "8.68% Tamilnadu State Dev. Loan (MD 10/10/2028)",
+          "weightPct": 2.1
+        },
+        {
+          "security": "7.09% Govt. of India (MD 25/11/2074)",
+          "weightPct": 1.6
+        },
+        {
+          "security": "5.85% Govt. of India (MD 01/12/2030)",
+          "weightPct": 0.1
+        },
+        {
+          "security": "CORPORATE DEBT",
+          "weightPct": 16.5
+        },
+        {
+          "security": "7.40% NABARD (MD 29/04/2030)",
+          "weightPct": 4.2
+        },
+        {
+          "security": "7.05% Sundaram Finance Limited (MD 11/10/2028)",
+          "weightPct": 4.2
+        },
+        {
+          "security": "6.87% Rural Electrification Corp. Limited (MD",
+          "weightPct": 4.2
+        },
+        {
+          "security": "7.79% Power Finance Corp. Limited (MD 22/07/2030)",
+          "weightPct": 1.7
+        },
+        {
+          "security": "8.52% Muthoot Finance Limited (MD 23/04/2031)",
+          "weightPct": 1.3
+        },
+        {
+          "security": "8.70% LIC Housing Finance Limited (MD 23/03/2029)",
+          "weightPct": 0.9
+        }
+      ]
+    },
+    {
+      "sfin": "ULIF00707/01/10GROWTIIFND136",
+      "name": "Growth II Fund",
+      "class": "Individual",
+      "category": null,
+      "nav": 41.776,
+      "inception": null,
+      "benchmark": "Nifty 50 and Customized UL",
+      "manager": null,
+      "aum": {
+        "equity": null,
+        "debt": null,
+        "mmi": null,
+        "total": 90.1
+      },
+      "returns": [],
+      "allocations": [],
+      "holdings": [
+        {
+          "security": "Reliance Industries Limited",
+          "weightPct": 6.6
+        },
+        {
+          "security": "HDFC Bank Limited",
+          "weightPct": 6.2
+        },
+        {
+          "security": "ICICI Bank Limited",
+          "weightPct": 5.1
+        },
+        {
+          "security": "Bharti Airtel Limited",
+          "weightPct": 4.3
+        },
+        {
+          "security": "Larsen & Toubro Limited",
+          "weightPct": 4.1
+        },
+        {
+          "security": "State Bank of India Limited",
+          "weightPct": 3.4
+        },
+        {
+          "security": "Axis Bank Limited",
+          "weightPct": 3.1
+        },
+        {
+          "security": "Infosys Limited",
+          "weightPct": 2.8
+        },
+        {
+          "security": "Mahindra & Mahindra Limited",
+          "weightPct": 2.3
+        },
+        {
+          "security": "Aditya Birla Sun Life Nifty Bank ETF",
+          "weightPct": 2.2
+        },
+        {
+          "security": "GOVERNMENT SECURITIES",
+          "weightPct": 10.5
+        },
+        {
+          "security": "6.90% Govt. of India (MD 15/04/2065)",
+          "weightPct": 5.3
+        },
+        {
+          "security": "6.01% Govt. of India (MD 21/07/2030)",
+          "weightPct": 4.8
+        },
+        {
+          "security": "6.75% Govt. of India (MD 23/12/2029)",
+          "weightPct": 0.4
+        },
+        {
+          "security": "CORPORATE DEBT",
+          "weightPct": 3.9
+        },
+        {
+          "security": "9.00% Power Finance Corp. Limited (MD 11/03/2028)",
+          "weightPct": 1.9
+        },
+        {
+          "security": "8.70% LIC Housing Finance Limited (MD 23/03/2029)",
+          "weightPct": 1.1
+        },
+        {
+          "security": "8.25% Great Eastern Shipping Company Limited",
+          "weightPct": 0.6
+        },
+        {
+          "security": "8.57% India Infradebt Limited (MD 23/06/2026)",
+          "weightPct": 0.3
+        }
+      ]
+    },
+    {
+      "sfin": "ULIF01505/11/15PENSBALFND136",
+      "name": "Pension Balanced Fund",
+      "class": "Individual",
+      "category": null,
+      "nav": 12.5742,
+      "inception": null,
+      "benchmark": "NA",
+      "manager": null,
+      "aum": {
+        "equity": null,
+        "debt": null,
+        "mmi": null,
+        "total": 78.0
+      },
+      "returns": [],
+      "allocations": [],
+      "holdings": [
+        {
+          "security": "HDFC Bank Limited",
+          "weightPct": 2.3
+        },
+        {
+          "security": "ICICI Bank Limited",
+          "weightPct": 1.7
+        },
+        {
+          "security": "Reliance Industries Limited",
+          "weightPct": 1.7
+        },
+        {
+          "security": "Bharti Airtel Limited",
+          "weightPct": 1.2
+        },
+        {
+          "security": "Larsen & Toubro Limited",
+          "weightPct": 1.0
+        },
+        {
+          "security": "Infosys Limited",
+          "weightPct": 0.9
+        },
+        {
+          "security": "State Bank of India Limited",
+          "weightPct": 0.9
+        },
+        {
+          "security": "ITC Limited",
+          "weightPct": 0.8
+        },
+        {
+          "security": "Axis Bank Limited",
+          "weightPct": 0.8
+        },
+        {
+          "security": "Kotak Mahindra Bank Limited",
+          "weightPct": 0.7
+        },
+        {
+          "security": "GOVERNMENT SECURITIES",
+          "weightPct": 66.9
+        },
+        {
+          "security": "6.01% Govt. of India (MD 21/07/2030)",
+          "weightPct": 16.3
+        },
+        {
+          "security": "6.48% Govt. of India (MD 06/10/2035)",
+          "weightPct": 12.4
+        },
+        {
+          "security": "7.32% Govt. of India (MD 13/11/2030)",
+          "weightPct": 6.6
+        },
+        {
+          "security": "7.76% Maharashtra State Dev. Loan (MD 04/10/2030)",
+          "weightPct": 6.5
+        },
+        {
+          "security": "6.54% Govt. of India (MD 17/01/2032)",
+          "weightPct": 6.3
+        },
+        {
+          "security": "6.36% Govt. of India (MD 16/02/2031)",
+          "weightPct": 6.3
+        },
+        {
+          "security": "6.68% Govt. of India (MD 07/07/2040)",
+          "weightPct": 6.0
+        },
+        {
+          "security": "6.90% Govt. of India (MD 15/04/2065)",
+          "weightPct": 3.5
+        },
+        {
+          "security": "6.57% Govt. of India (MD 05/12/2033)",
+          "weightPct": 1.9
+        },
+        {
+          "security": "7.05% Andhra Pradesh State Dev. Loan (MD 01/09/2035)",
+          "weightPct": 1.2
+        },
+        {
+          "security": "CORPORATE DEBT",
+          "weightPct": 1.3
+        },
+        {
+          "security": "8.52% Muthoot Finance Limited (MD 23/04/2031)",
+          "weightPct": 1.3
+        }
+      ]
+    },
+    {
+      "sfin": "ULIF02410/03/25MLMMQEQFND136",
+      "name": "Multicap Momentum Quality Index Fund",
+      "class": "Individual",
+      "category": null,
+      "nav": 11.1507,
+      "inception": null,
+      "benchmark": "NIFTY 500 Multicap Momentum Quality 50",
+      "manager": null,
+      "aum": {
+        "equity": null,
+        "debt": null,
+        "mmi": null,
+        "total": 75.6
+      },
+      "returns": [],
+      "allocations": [],
+      "holdings": [
+        {
+          "security": "BSE Limited",
+          "weightPct": 6.7
+        },
+        {
+          "security": "Nestle India Limited",
+          "weightPct": 5.9
+        },
+        {
+          "security": "Cummins India Limited",
+          "weightPct": 5.7
+        },
+        {
+          "security": "Multi Commodity Exchange of India Limited",
+          "weightPct": 5.4
+        },
+        {
+          "security": "Bharat Electronics Limited",
+          "weightPct": 5.3
+        },
+        {
+          "security": "Eicher Motors Limited",
+          "weightPct": 5.1
+        },
+        {
+          "security": "Asian Paints Limited",
+          "weightPct": 5.1
+        },
+        {
+          "security": "Hero Motocorp Limited",
+          "weightPct": 4.6
+        },
+        {
+          "security": "GE Vernova T&D India Limited",
+          "weightPct": 4.2
+        },
+        {
+          "security": "Maruti Suzuki India Limited",
+          "weightPct": 4.2
+        }
+      ]
+    },
+    {
+      "sfin": "ULIF02502/04/25NFALFEQFND136",
+      "name": "Nifty Alpha 50 Index fund",
+      "class": "Individual",
+      "category": null,
+      "nav": 11.0031,
+      "inception": null,
+      "benchmark": "Nifty Alpha 50 Index",
+      "manager": null,
+      "aum": {
+        "equity": null,
+        "debt": null,
+        "mmi": null,
+        "total": 46.4
+      },
+      "returns": [],
+      "allocations": [
+        {
+          "kind": "asset",
+          "label": "Equity",
+          "weight": 98.1
+        },
+        {
+          "kind": "asset",
+          "label": "Money Market",
+          "weight": 1.9
+        }
+      ],
+      "holdings": [
+        {
+          "security": "GE Vernova T&D India Limited",
+          "weightPct": 5.5
+        },
+        {
+          "security": "Hitachi Energy India Limited",
+          "weightPct": 4.5
+        },
+        {
+          "security": "Hindustan Copper Limited",
+          "weightPct": 4.2
+        },
+        {
+          "security": "Laurus Labs Limited",
+          "weightPct": 3.5
+        },
+        {
+          "security": "National Aluminium Company Limited",
+          "weightPct": 2.7
+        },
+        {
+          "security": "Multi Commodity Exchange of India Limited",
+          "weightPct": 2.6
+        },
+        {
+          "security": "Apar Industries Limited",
+          "weightPct": 2.6
+        },
+        {
+          "security": "Cummins India Limited",
+          "weightPct": 2.6
+        },
+        {
+          "security": "Aditya Birla Capital Limited",
+          "weightPct": 2.3
+        },
+        {
+          "security": "Bharat Forge Limited",
+          "weightPct": 2.3
+        }
+      ]
+    },
+    {
+      "sfin": "ULIF02715/09/25MLFACEQFND136",
+      "name": "Nifty 500 Multifactor 50 Index Fund",
+      "class": "Individual",
+      "category": null,
+      "nav": 9.6812,
+      "inception": null,
+      "benchmark": "Nifty500 Multifactor MQVLv 50",
+      "manager": null,
+      "aum": {
+        "equity": null,
+        "debt": null,
+        "mmi": null,
+        "total": 27.7
+      },
+      "returns": [],
+      "allocations": [],
+      "holdings": [
+        {
+          "security": "Coal India Limited",
+          "weightPct": 3.2
+        },
+        {
+          "security": "Aster DM Healthcare Limited",
+          "weightPct": 3.1
+        },
+        {
+          "security": "Oil & Natural Gas Corporation Limited",
+          "weightPct": 2.8
+        },
+        {
+          "security": "Cummins India Limited",
+          "weightPct": 2.7
+        },
+        {
+          "security": "National Aluminium Company Limited",
+          "weightPct": 2.7
+        },
+        {
+          "security": "Torrent Pharmaceuticals Limited",
+          "weightPct": 2.6
+        },
+        {
+          "security": "Power Finance Corporation Limited",
+          "weightPct": 2.6
+        },
+        {
+          "security": "Indian Bank Limited",
+          "weightPct": 2.6
+        },
+        {
+          "security": "The Federal Bank Limited",
+          "weightPct": 2.5
+        },
+        {
+          "security": "Asian Paints Limited",
+          "weightPct": 2.5
+        }
+      ]
+    },
+    {
+      "sfin": "ULIF02822/02/26PENONEQFND136",
+      "name": "Pension Equity Fund",
+      "class": "Individual",
+      "category": null,
+      "nav": 10.3218,
+      "inception": null,
+      "benchmark": "Nifty 50",
+      "manager": null,
+      "aum": {
+        "equity": null,
+        "debt": null,
+        "mmi": null,
+        "total": 9.9
+      },
+      "returns": [],
+      "allocations": [
+        {
+          "kind": "asset",
+          "label": "Equity",
+          "weight": 97.7
+        },
+        {
+          "kind": "asset",
+          "label": "Money Market",
+          "weight": 2.3
+        }
+      ],
+      "holdings": [
+        {
+          "security": "HDFC Bank Limited",
+          "weightPct": 6.8
+        },
+        {
+          "security": "Reliance Industries Limited",
+          "weightPct": 6.2
+        },
+        {
+          "security": "ICICI Bank Limited",
+          "weightPct": 6.0
+        },
+        {
+          "security": "ICICI PRUDENTIAL NIFTY BANK ETF NIFTY",
+          "weightPct": 6.0
+        },
+        {
+          "security": "Bharti Airtel Limited",
+          "weightPct": 5.4
+        },
+        {
+          "security": "Larsen & Toubro Limited",
+          "weightPct": 4.4
+        },
+        {
+          "security": "Infosys Limited",
+          "weightPct": 4.2
+        },
+        {
+          "security": "State Bank of India Limited",
+          "weightPct": 3.1
+        },
+        {
+          "security": "Aditya Birla Sun Life Nifty Bank ETF",
+          "weightPct": 2.8
+        },
+        {
+          "security": "Axis Bank Limited",
+          "weightPct": 2.6
+        }
+      ]
+    },
+    {
+      "sfin": "ULIF03026/03/26ENVALEQFND136",
+      "name": "BSE 500 Enhanced Value 50 Index Fund",
+      "class": "Individual",
+      "category": null,
+      "nav": 9.9905,
+      "inception": null,
+      "benchmark": "BSE 500 Enhanced Value 50",
+      "manager": null,
+      "aum": {
+        "equity": null,
+        "debt": null,
+        "mmi": null,
+        "total": 8.8
+      },
+      "returns": [],
+      "allocations": [
+        {
+          "kind": "asset",
+          "label": "Equity",
+          "weight": 97.1
+        },
+        {
+          "kind": "asset",
+          "label": "Money Market",
+          "weight": 2.9
+        }
+      ],
+      "holdings": [
+        {
+          "security": "State Bank of India Limited",
+          "weightPct": 8.2
+        },
+        {
+          "security": "Hindalco Industries Limited",
+          "weightPct": 6.9
+        },
+        {
+          "security": "Tata Motors Passenger Vehicles Limited",
+          "weightPct": 6.5
+        },
+        {
+          "security": "Coal India Limited",
+          "weightPct": 5.7
+        },
+        {
+          "security": "Bharat Petroleum Corporation Limited",
+          "weightPct": 5.5
+        },
+        {
+          "security": "Oil & Natural Gas Corporation Limited",
+          "weightPct": 5.4
+        },
+        {
+          "security": "Indian Oil Corporation Limited",
+          "weightPct": 4.5
+        },
+        {
+          "security": "Bank of Baroda Limited",
+          "weightPct": 4.5
+        },
+        {
+          "security": "Steel Authority of India Limited",
+          "weightPct": 4.2
+        },
+        {
+          "security": "GAIL (India) Limited",
+          "weightPct": 3.3
+        }
+      ]
+    },
+    {
+      "sfin": "ULIF02618/08/25PNALFEQFND136",
+      "name": "Pension Nifty Alpha 50 Index Fund",
+      "class": "Individual",
+      "category": null,
+      "nav": 10.443,
+      "inception": null,
+      "benchmark": "Nifty Alpha 50",
+      "manager": null,
+      "aum": {
+        "equity": null,
+        "debt": null,
+        "mmi": null,
+        "total": 7.1
+      },
+      "returns": [],
+      "allocations": [],
+      "holdings": [
+        {
+          "security": "GE Vernova T&D India Limited",
+          "weightPct": 5.3
+        },
+        {
+          "security": "Hindustan Copper Limited",
+          "weightPct": 4.4
+        },
+        {
+          "security": "Hitachi Energy India Limited",
+          "weightPct": 4.4
+        },
+        {
+          "security": "Laurus Labs Limited",
+          "weightPct": 3.7
+        },
+        {
+          "security": "Apar Industries Limited",
+          "weightPct": 2.9
+        },
+        {
+          "security": "National Aluminium Company Limited",
+          "weightPct": 2.8
+        },
+        {
+          "security": "Cummins India Limited",
+          "weightPct": 2.7
+        },
+        {
+          "security": "Multi Commodity Exchange of India Limited",
+          "weightPct": 2.7
+        },
+        {
+          "security": "Max Financial Services Limited",
+          "weightPct": 2.4
+        },
+        {
+          "security": "Bharat Forge Limited",
+          "weightPct": 2.4
+        }
+      ]
+    },
+    {
+      "sfin": "ULIF01605/11/15PENSDEBFND136",
+      "name": "Pension Debt Fund",
+      "class": "Individual",
+      "category": null,
+      "nav": 10.0825,
+      "inception": null,
+      "benchmark": "Customized UL Pension Debt Composite",
+      "manager": null,
+      "aum": {
+        "equity": null,
+        "debt": null,
+        "mmi": null,
+        "total": 13.6
+      },
+      "returns": [],
+      "allocations": [],
+      "holdings": []
+    },
+    {
+      "sfin": "ULIF01319/09/11POLDISCFND136",
+      "name": "Discontinued Policy Fund",
+      "class": "Individual",
+      "category": null,
+      "nav": 24.5803,
+      "inception": null,
+      "benchmark": "NA",
+      "manager": null,
+      "aum": {
+        "equity": null,
+        "debt": null,
+        "mmi": null,
+        "total": 1225.8
+      },
+      "returns": [],
+      "allocations": [],
+      "holdings": []
+    },
+    {
+      "sfin": "ULIF01705/11/15PENSDISFND136",
+      "name": "Pension Discontinued Policy Fund",
+      "class": "Individual",
+      "category": null,
+      "nav": 15.4527,
+      "inception": null,
+      "benchmark": "NA",
+      "manager": null,
+      "aum": {
+        "equity": null,
+        "debt": null,
+        "mmi": null,
+        "total": 68.8
+      },
+      "returns": [],
+      "allocations": [],
+      "holdings": []
+    }
+  ]
+}

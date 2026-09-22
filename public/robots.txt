@@ -1,0 +1,3 @@
+# Bharat Market Pro — unlisted/low-key. Discourage indexing.
+User-agent: *
+Disallow: /

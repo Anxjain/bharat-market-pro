@@ -1,0 +1,184 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", "Segoe UI", system-ui, sans-serif;
+
+  /* ——— Semantic color tokens (light values). A `.dark` class on <html> overrides
+     these variables below, flipping the whole UI — components use bg-surface /
+     text-ink / border-line / text-muted / bg-*-soft etc. instead of raw hexes. ——— */
+  --color-canvas: #e2e4e8;   /* page background behind the app window */
+  --color-surface: #ffffff;  /* cards, panels, white surfaces */
+  --color-panel: #f5f6f8;    /* inset/subtle backgrounds */
+  --color-line: #ececf0;     /* hairline borders / rules */
+  --color-ink: #16181d;      /* primary text */
+  --color-strong: #3f3d3a;   /* strong secondary text (stone-700/800) */
+  --color-muted: #6b6f76;    /* secondary text (stone-500/600) */
+  --color-faint: #9aa0a8;    /* tertiary text (stone-300/400) */
+  --color-inkfill: #1c1f26;  /* dark "pill" button/badge background */
+  --color-oninkfill: #ffffff;
+
+  /* functional (up/down) foregrounds — brighter variants used in dark */
+  --color-up: #1d9d6f;
+  --color-down: #c43a3a;
+
+  /* soft tint backgrounds + matching borders */
+  --color-up-soft: #e7f8f1;
+  --color-up-soft-bd: #c6ecdb;
+  --color-down-soft: #fdeef0;
+  --color-down-soft-bd: #f6c9cf;
+  --color-accent-soft: #f1eeff;
+  --color-info-soft: #eaf6fd;
+  --color-info-soft-bd: #bfe3f7;
+  --color-warn-soft: #fbf5e8;
+  --color-warn-soft-bd: #f0e6c8;
+}
+
+/* ——— Dark theme: override the semantic variables. Class-based (set on <html>) so a
+   toggle can flip it instantly and it persists via localStorage. ——— */
+.dark {
+  --color-canvas: #0c0e12;
+  --color-surface: #171a20;
+  --color-panel: #1f232b;
+  --color-line: #2a2f39;
+  --color-ink: #e8eaed;
+  --color-strong: #cbd0d7;
+  --color-muted: #99a0ab;
+  --color-faint: #6d7480;
+  --color-inkfill: #2b303b;
+  --color-oninkfill: #f4f5f7;
+
+  --color-up: #35d29a;
+  --color-down: #ff5d6a;
+
+  --color-up-soft: #12281f;
+  --color-up-soft-bd: #1e4736;
+  --color-down-soft: #2b1719;
+  --color-down-soft-bd: #4c2127;
+  --color-accent-soft: #221d3a;
+  --color-info-soft: #10222e;
+  --color-info-soft-bd: #1d3a4c;
+  --color-warn-soft: #2a2314;
+  --color-warn-soft-bd: #443a1c;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-variant-numeric: tabular-nums;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+::selection { background: #c9ecdf; color: #16181d; }
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--color-line); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-faint); }
+
+/* ——— Terminal design language ———
+   One floating app window on a gray canvas. Themed surfaces, full-round pills,
+   whisper shadows, green/red functional colour, smooth motion everywhere. */
+
+.card {
+  border-radius: 18px;
+  border: 1px solid var(--color-line);
+  background: var(--color-surface);
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.03), 0 6px 20px rgba(16, 24, 40, 0.05);
+}
+.dark .card {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.35), 0 6px 20px rgba(0, 0, 0, 0.45);
+}
+
+.card-hover {
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.25s ease, border-color 0.25s ease;
+}
+.card-hover:hover {
+  transform: translateY(-2px);
+  border-color: var(--color-faint);
+  box-shadow: 0 2px 4px rgba(16, 24, 40, 0.04), 0 14px 32px rgba(16, 24, 40, 0.09);
+}
+.dark .card-hover:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4), 0 14px 32px rgba(0, 0, 0, 0.55);
+}
+
+.rule { border-color: var(--color-line); }
+
+/* Pill buttons (video language: dark pill + green pill + white pill) */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border: 1px solid var(--color-line);
+  border-radius: 999px;
+  padding: 0.52rem 1.15rem;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--color-ink);
+  background: var(--color-surface);
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
+  transition: transform 0.2s cubic-bezier(0.22, 1, 0.36, 1), background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+.btn:hover { transform: translateY(-1px); box-shadow: 0 4px 14px rgba(16, 24, 40, 0.1); }
+.btn:active { transform: translateY(0) scale(0.98); }
+.btn-fill { background: var(--color-inkfill); border-color: var(--color-inkfill); color: var(--color-oninkfill); }
+.btn-fill:hover { background: var(--color-inkfill); filter: brightness(1.15); }
+.btn-red { background: #2ebd85; border-color: #2ebd85; color: #ffffff; }
+.btn-red:hover { background: #29ab78; }
+.btn:disabled { opacity: 0.45; pointer-events: none; }
+
+/* Page entrance on route change */
+.page-enter {
+  animation: pagefade 0.4s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+@keyframes pagefade {
+  from { opacity: 0; transform: translateY(10px) scale(0.997); }
+  to { opacity: 1; transform: none; }
+}
+
+/* Staggered rise for lists and grids */
+.stagger > * {
+  opacity: 0;
+  animation: rise 0.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+.stagger > *:nth-child(1) { animation-delay: 0.03s; }
+.stagger > *:nth-child(2) { animation-delay: 0.06s; }
+.stagger > *:nth-child(3) { animation-delay: 0.09s; }
+.stagger > *:nth-child(4) { animation-delay: 0.12s; }
+.stagger > *:nth-child(5) { animation-delay: 0.15s; }
+.stagger > *:nth-child(6) { animation-delay: 0.18s; }
+.stagger > *:nth-child(7) { animation-delay: 0.21s; }
+.stagger > *:nth-child(8) { animation-delay: 0.24s; }
+.stagger > *:nth-child(9) { animation-delay: 0.27s; }
+.stagger > *:nth-child(10) { animation-delay: 0.30s; }
+.stagger > *:nth-child(11) { animation-delay: 0.33s; }
+.stagger > *:nth-child(12) { animation-delay: 0.36s; }
+.stagger > *:nth-child(n + 13) { animation-delay: 0.4s; }
+@keyframes rise {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: none; }
+}
+
+.pulse-dot { animation: pulsedot 2.4s ease-in-out infinite; }
+@keyframes pulsedot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.35; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page-enter, .stagger > *, .pulse-dot { animation: none; opacity: 1; }
+  .btn:hover, .card-hover:hover { transform: none; }
+}
+
+/* Print: only the report area */
+@media print {
+  body { background: white; color: #111; }
+  .no-print { display: none !important; }
+  .print-area { display: block !important; }
+}

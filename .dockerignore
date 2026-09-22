@@ -1,0 +1,24 @@
+**/node_modules
+.git
+raw
+factsheets
+backups
+*.log
+server/data
+server/dist
+dist
+**/_*.mts
+*.dump
+*.original.jpg
+intake
+deploy.env
+# Secrets must never enter the build context: the Dockerfile does `COPY . .`, so an
+# env file present here would be baked into an image layer and travel with it.
+# Runtime config is injected by docker-compose (env_file:), not copied in.
+.env
+.env.*
+!.env.example
+server/.env
+server/.env.*
+!server/.env.example
+data

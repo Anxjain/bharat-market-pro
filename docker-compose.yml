@@ -1,0 +1,114 @@
+# Bharat Market Pro — full stack: app (API + built UI) + Postgres + Caddy (automatic
+# TLS). Named volumes and non-default host ports keep it isolated from anything else
+# already running on the machine. One command: `docker compose up -d --build`.
+#
+# Region note: host this on an India/Mumbai region VM — NSE archives and several
+# insurer sites prefer (or are friendlier to) Indian IPs for the live fetchers.
+#
+# SECURITY: Postgres and the app port are bound to 127.0.0.1 ONLY — they are never
+# published to the public internet (Docker's port publishing bypasses ufw, so a
+# 0.0.0.0 bind here would silently expose the DB). Caddy is the sole public ingress
+# on 80/443. Set a strong POSTGRES_PASSWORD in the root .env on the VM.
+services:
+  postgres:
+    image: postgres:16
+    container_name: bharat_market_pro_pg
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: bharat_market_pro
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-bharat_market_pro}
+      POSTGRES_DB: bharat_market_pro
+    ports:
+      - "127.0.0.1:5433:5432"   # loopback only — never public; app talks to postgres:5432 over the compose network
+    volumes:
+      - bharat_market_pro_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U bharat_market_pro -d bharat_market_pro"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    mem_limit: 2g
+    logging:
+      driver: json-file
+      options:
+        max-size: "20m"
+        max-file: "3"
+
+  app:
+    build:
+      context: .
+      args:
+        # Supabase frontend keys are build-time — set them in a root .env to enable login.
+        VITE_SUPABASE_URL: ${VITE_SUPABASE_URL:-}
+        VITE_SUPABASE_ANON_KEY: ${VITE_SUPABASE_ANON_KEY:-}
+    container_name: bharat_market_pro_app
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgres://bharat_market_pro:${POSTGRES_PASSWORD:-bharat_market_pro}@postgres:5432/bharat_market_pro
+      PORT: "9787"
+      RAW_DIR: /data/raw
+      # /app is root-owned (container runs as `node`) — all writable ULIP paths must
+      # live under /data or the fetchers die with EACCES on mkdir.
+      ULIP_FACTSHEET_DIR: /data/factsheets
+      ULIP_INTAKE_DIR: /data/intake
+      ULIP_CHROMIUM: ${ULIP_CHROMIUM:-1}
+      CHROMIUM_PATH: /usr/bin/chromium
+      SCHEDULER_ENABLED: ${SCHEDULER_ENABLED:-true}
+      SCHEDULER_FETCH: ${SCHEDULER_FETCH:-0}
+      SCHEDULER_TZ: ${SCHEDULER_TZ:-Asia/Kolkata}
+      TRUST_PROXY: ${TRUST_PROXY:-1}   # Caddy is the only ingress → trust its forwarded client IP
+      DOMAIN: ${DOMAIN:-}              # used to build links in outgoing emails
+      PUBLIC_URL: ${PUBLIC_URL:-}      # overrides DOMAIN when the site sits on a sub-path/port
+      ULIP_PYTHON: python3             # deterministic (no-LLM) factsheet extractors
+    # API keys (GEMINI_API_KEY, GROQ_API_KEY, SUPABASE_JWT_SECRET) live here:
+    env_file:
+      - ./server/.env
+    volumes:
+      - raw_archive:/data/raw     # raw PDFs persist across restarts
+      - factsheet_library:/data/factsheets  # human-readable factsheet copies + manifest persist
+      - ./intake:/data/intake     # manual drop-box: put <adapterId>_<YYYY-MM>.pdf here to load it
+    expose:
+      - "9787"
+    ports:
+      - "127.0.0.1:9787:9787"     # loopback only (local debugging on the VM); Caddy fronts 80/443
+    mem_limit: 4g
+    logging:
+      driver: json-file
+      options:
+        max-size: "20m"
+        max-file: "3"
+
+  caddy:
+    image: caddy:2
+    container_name: bharat_market_pro_caddy
+    restart: unless-stopped
+    depends_on:
+      - app
+    environment:
+      DOMAIN: ${DOMAIN:-localhost}
+      ACME_EMAIL: ${ACME_EMAIL:-}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    logging:
+      driver: json-file
+      options:
+        max-size: "20m"
+        max-file: "3"
+
+volumes:
+  bharat_market_pro_pgdata:
+    name: bharat_market_pro_pgdata
+  raw_archive:
+    name: bharat_market_pro_raw
+  factsheet_library:
+    name: bharat_market_pro_factsheets
+  caddy_data:
+  caddy_config:

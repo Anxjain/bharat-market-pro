@@ -1,0 +1,52 @@
+{
+  "name": "bharat-market-pro-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "ingest": "tsx src/ingest/bhavcopy.ts",
+    "warm": "tsx src/ingest/warm-factsheets.ts",
+    "seed:insurer-kpis": "tsx src/ingest/insurer-kpis-seed.ts",
+    "ingest:insurer-kpis": "tsx src/ingest/insurer-kpis-fetch.ts",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "tsx src/db/migrate.ts",
+    "ulip": "tsx src/ulip/run.ts",
+    "ulip:icici": "tsx src/ulip/icici-web.ts",
+    "ulip:revalidate": "tsx src/ulip/revalidate.ts",
+    "ulip:source-pages": "tsx src/ulip/sourcepages.ts",
+    "guidance:backfill": "tsx src/guidance/backfill.ts",
+    "guidance:backfill:fundamentals": "tsx src/guidance/backfill-fundamentals.ts",
+    "guidance:membership": "tsx src/guidance/ingest-membership.ts",
+    "guidance:seed": "tsx src/guidance/seed.ts",
+    "guidance:labels": "tsx src/guidance/labels.ts",
+    "ml:export": "tsx src/ml/export-dataset.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.7",
+    "adm-zip": "^0.5.17",
+    "drizzle-orm": "^0.45.2",
+    "exceljs": "^4.4.0",
+    "hono": "^4.6.14",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^9.0.3",
+    "pdf-lib": "^1.17.1",
+    "pg": "^8.21.0",
+    "puppeteer": "^25.2.1",
+    "rss-parser": "^3.13.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/adm-zip": "^0.5.8",
+    "@types/node-cron": "^3.0.11",
+    "@types/nodemailer": "^8.0.1",
+    "@types/pg": "^8.20.0",
+    "drizzle-kit": "^0.31.10",
+    "tsx": "^4.19.2",
+    "vitest": "^2.1.8"
+  }
+}

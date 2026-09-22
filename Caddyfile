@@ -1,0 +1,27 @@
+# Caddy reverse proxy with automatic TLS. Set DOMAIN to your domain and Caddy
+# auto-issues + renews a Let's Encrypt cert (contact email is optional). Without
+# DOMAIN it serves "localhost" with an internal cert — and never crash-loops.
+{$DOMAIN:localhost} {
+	encode zstd gzip
+
+	# Security headers (HSTS, clickjacking, MIME-sniffing, referrer leakage).
+	header {
+		Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+		X-Content-Type-Options "nosniff"
+		X-Frame-Options "DENY"
+		Referrer-Policy "no-referrer"
+		Permissions-Policy "geolocation=(), microphone=(), camera=()"
+		-Server
+	}
+
+	# Access log (JSON, rotated) so traffic is measurable — was previously off.
+	log {
+		output file /data/access.log {
+			roll_size 20mb
+			roll_keep 5
+		}
+		format json
+	}
+
+	reverse_proxy app:9787
+}
