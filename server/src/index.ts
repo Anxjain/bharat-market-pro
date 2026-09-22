@@ -101,8 +101,9 @@ app.use('/api/ulip/chat', chatRateLimiter) // ULIP chat is public but calls paid
 app.get('/api/health', async (c) => {
   let db = false
   try { await pool.query('select 1'); db = true } catch { /* db down */ }
-  // Return 503 when the DB is unreachable so uptime monitors + deploy.sh see a real
-  // failure (a 200 with db:false reads as healthy to a plain HTTP check).
+  // Return 503 when the DB is unreachable so uptime monitors and deploy health
+  // gates see a real failure (a 200 with db:false reads as healthy to a plain
+  // HTTP check).
   return c.json(
     { ok: db, service: 'bharat-market-pro-api', mockMode: MOCK_MODE, db, auth: authEnabled(), time: new Date().toISOString() },
     db ? 200 : 503,

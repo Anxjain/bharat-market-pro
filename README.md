@@ -119,6 +119,41 @@ npm --prefix server run guidance:labels   # compute forward-return labels
 
 ---
 
+## Running it live on a server
+
+The stack is domain-agnostic — nothing is hardcoded to any particular host.
+
+1. **Point DNS at the server** — an `A` record for `your-domain.com` (and `www`).
+2. **Install Docker** on it and copy the project across (any path).
+3. **Create `.env`** in the project root:
+
+   ```bash
+   DOMAIN=your-domain.com
+   ACME_EMAIL=you@example.com          # Let's Encrypt registration
+   PUBLIC_URL=https://your-domain.com  # used for links inside emails
+   POSTGRES_PASSWORD=<a long random string>
+
+   # only if you want login:
+   VITE_SUPABASE_URL=https://YOUR-PROJECT.supabase.co
+   VITE_SUPABASE_ANON_KEY=<publishable key>
+   ```
+
+4. **Create `server/.env`** from `server/.env.example`.
+5. **Start:** `docker compose up -d --build`
+
+Caddy obtains and renews a Let's Encrypt certificate automatically and redirects
+HTTP to HTTPS. Postgres and the app bind to `127.0.0.1` only — Caddy is the sole
+public ingress. Schema migrations apply on boot. Then populate the database with
+the ingest commands above.
+
+**Hosting notes.** Host in India if you can: NSE archives and several insurer
+sites are slow or unfriendly to foreign IPs (everything still works elsewhere —
+the automated fetchers are just less reliable). 2 vCPU / 4 GB RAM is comfortable;
+allow ~20 GB of disk plus room for archived PDFs. Any provider works — this is
+plain Docker Compose with no provider-specific services.
+
+---
+
 ## The fund-transparency engine
 
 ULIP (unit-linked insurance plan) funds hold a large share of Indian long-term

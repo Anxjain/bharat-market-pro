@@ -16,6 +16,8 @@
     "db:generate": "drizzle-kit generate",
     "db:migrate": "tsx src/db/migrate.ts",
     "ulip": "tsx src/ulip/run.ts",
+    "ulip:load": "tsx src/ulip/backfillLoad.ts",
+    "ulip:archive-gaps": "tsx scripts/archive-gap-months.ts",
     "ulip:icici": "tsx src/ulip/icici-web.ts",
     "ulip:revalidate": "tsx src/ulip/revalidate.ts",
     "ulip:source-pages": "tsx src/ulip/sourcepages.ts",

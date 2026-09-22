@@ -1,8 +1,11 @@
-// Backfill loader: ingest LOCALLY-extracted fund JSON (from scripts/backfill, no
-// Gemini) through the EXISTING validate+normalize+store path, so backfilled months
-// are byte-for-byte consistent with how the live 2026-05 data was produced.
+// Backfill loader: ingest LOCALLY-extracted fund JSON — the output of the
+// deterministic extractors in server/extractors/, no LLM — through the EXISTING
+// validate+normalize+store path, so a backfilled month is produced exactly the
+// same way as a month ingested by the live pipeline.
 //
-//   npx tsx src/ulip/backfillLoad.ts <adapterId> <YYYY-MM> <json> [--force]
+//   npm run ulip:load -- <adapterId> <YYYY-MM> <json> [--force]
+//
+// (docs/samples/ has one such JSON file, to show the expected shape.)
 //
 // Idempotent-ish: store() upserts by (sfin, month). Load oldest->newest so each
 // month sees its prior month for MoM/holding-drift validation context.
